@@ -1,0 +1,10 @@
+//Cabo Pansy 50mm
+New wiredata.CABO GMR=0.00339
+~ Diam=8.34
+~ Rdc=0.6785 NormAmps=200
+~ Runits=km Radunits=mm GMRunits=m
+
+New LineGeometry.3PH_HORIZ nconds=3 nphases=3
+cond=1 wire=CABO x= 0 h= 10 units=m
+cond=2 wire=CABO x= 0.87 h= 8.5 units=m
+cond=3 wire=CABO x= 1.75 h= 10 units=m

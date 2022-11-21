@@ -1,0 +1,20 @@
+Clear
+
+New Circuit.Subestacao phases=3 bus=1 basekv=13.8 
+
+New "LoadShape.curvaresidencial" npts=24 interval=1.0 mult=(File=cld.csv) 
+
+Redirect cargaslv.dss
+//Redirect cargasmv.dss
+Redirect transformadores26.dss
+Redirect geometriacond.dss
+Redirect linhasdistribuicao.dss
+
+
+
+Set VoltageBases = [13.8,0.22,0.127]
+CalcVoltageBases
+solve
+
+Buscoords CoordenadasBuses.dss
+

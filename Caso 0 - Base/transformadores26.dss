@@ -1,0 +1,256 @@
+
+//---------------------------------------------------------------------------------------------
+
+// ÁREA 2 - TRANSFORMADORES TRIFÁSICOS
+
+New transformer.T32	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6  
+~ wdg=1 bus=2012.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2012b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T33	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2018.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2018b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+  
+New transformer.T34	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2030.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2030b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T35	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2044.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2044b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T36	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2057.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2057b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T37	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2061.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2061b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T38	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2065.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2065b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T39	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2071.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2071b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T40	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2076.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2076b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T41	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2088.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2088b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T42	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2091.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2091b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T43	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2097.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2097b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T44	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2098.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2098b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T45	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2106.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2106b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T46	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2113.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2113b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T47	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2125.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2125b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T48	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2127.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2127b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T49	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2137.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2137b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T50	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2141.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2141b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T51	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2142.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2142b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T52	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2148.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2148b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T53	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2152.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2152b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T54	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2159.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2159b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T55	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2166.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2166b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T56	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2168.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2168b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T57	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2176.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2176b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T58	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2184.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2184b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T59	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2190.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2190b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T60	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2193.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2193b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T61	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2199.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2199b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T62	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2200.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2200b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T82	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2219.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2220b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T63	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2231.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2231b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T64	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2237.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2237b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+
+New transformer.T65	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2241.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2241b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+
+New transformer.T66	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2250.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2250b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T67	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2253.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2253b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T68	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2259.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2259b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T69	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2261.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2261b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T70	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2269.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2269b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+
+New transformer.T71	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2274.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2274b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+
+New transformer.T72	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2279.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2279b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+
+New transformer.T73	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2286.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2286b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T74	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2288.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2288b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T75	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2290.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2290b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T76	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2294.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2294b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T77	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2296.1.2.3     conn=Delta kv=13.8    kva=45   %r=0.5  
+~ wdg=2 bus=2296b.1.2.3    conn=wye   kv=0.22  kva=45   %r=0.5
+
+New transformer.T78	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2304.1.2.3     conn=Delta kv=13.8    kva=125   %r=0.5  
+~ wdg=2 bus=2304b.1.2.3    conn=wye   kv=0.22  kva=125   %r=0.5
+
+
+New transformer.T79	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2306.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2306b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T80	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2314.1.2.3     conn=Delta kv=13.8    kva=125   %r=0.5  
+~ wdg=2 bus=2314b.1.2.3    conn=wye   kv=0.22  kva=125   %r=0.5
+
+New transformer.T81	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2318.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2318b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T1000	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2323.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2323b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T10001	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2327.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2327b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T10002	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2332.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2332b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T10003	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2337.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2337b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T10004	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2337.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2337b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T10005	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2342.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2342b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T10006	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2347.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2347b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T10009	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2353.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2353b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+New transformer.T100091	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2354.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2354b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+
+
+New transformer.T1000912	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2360.1.2.3     conn=Delta kv=13.8    kva=75   %r=0.5  
+~ wdg=2 bus=2360b.1.2.3    conn=wye   kv=0.22  kva=75   %r=0.5
+

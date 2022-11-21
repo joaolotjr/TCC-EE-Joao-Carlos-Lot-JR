@@ -1,0 +1,45 @@
+Clear
+
+New Circuit.Subestacao phases=3 bus=1 basekv=13.8 
+
+New "LoadShape.curvaresidencial" npts=24 interval=1.0 mult=(File=cld.csv) 
+
+Redirect cargaslv.dss
+//Redirect cargasmv.dss
+Redirect transformadores26.dss
+Redirect geometriacond.dss
+Redirect linhasdistribuicao.dss
+
+
+!---------------------------------------------------------
+! Adicicnando Dados de batteria/ev 
+!---------------------------------------------------------
+
+New LoadShape.storageShape npts=24 interval=1.0 mult=(File=EV_Caso1.csv)
+
+New Storage.Battery phases=3 Bus1=2030b.1.2.3 kv=0.22 kwrated=978.8 kwhrated=5872.8 %stored=0 dispmode=follow daily=storageShape
+
+ 
+
+! ADD  dados do transformador
+
+New transformer.T100	phase=3	windings=2	Xhl=3.5 %loadloss=2.3 %noloadloss=0.5 %imag=3.6
+~ wdg=1 bus=2030.1.2.3     conn=Delta kv=13.8    kva=2000   %r=0.5  
+~ wdg=2 bus=2030b.1.2.3    conn=wye   kv=0.22  kva=2000   %r=0.5
+
+!---------------------------------------------------------
+new monitor.storage_voltage storage.Battery terminal=1 ppolar=no mode=0
+new monitor.storage_power storage.Battery terminal=1 mode=1 ppolar=no
+new monitor.storage_general storage.Battery terminal=1 mode=3
+
+set mode = daily
+set stepsize = 1h
+set number = 24
+
+
+Set VoltageBases = [13.8,0.22,0.127]
+CalcVoltageBases
+solve
+
+Buscoords CoordenadasBuses.dss
+
