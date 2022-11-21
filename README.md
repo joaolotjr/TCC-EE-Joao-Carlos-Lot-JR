@@ -1,2 +1,2 @@
 # TCC-EE-Joao-Carlos-Lot-JR
-Capstone project - Ggraduation Electrical Engineering - UFOP
+Capstone project - Graduation Electrical Engineering - UFOP
